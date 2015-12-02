@@ -1,0 +1,5 @@
+" Vim settings
+
+" set nocompatible
+
+

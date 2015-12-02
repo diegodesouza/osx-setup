@@ -24,7 +24,8 @@ git config --global push.default simple
 # Brew packages
 #
 brew install ack
-brew install brew-cask
+brew install bash
+brew install caskroom/cask/brew-cask
 brew install chruby
 brew install elixir
 brew install heroku-toolbelt

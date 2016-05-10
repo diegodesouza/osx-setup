@@ -44,28 +44,21 @@ brew install zsh
 #
 brew cask install ccleaner
 brew cask install calibre
-brew cask install charles
 brew cask install day-o
 brew cask install dropbox
-brew cask install diskgave
-brew cask install filezilla
 brew cask install firefox
 brew cask install flux
 brew cask install gitter
 brew cask install google-chrome
 brew cask install google-chrome-canary
-brew cask install imagealpha
-brew cask install imageoptim
 brew cask install iterm2
 brew cask install karabiner
 brew cask install macdown
 brew cask install onyx
-brew cask install parallels-desktop
 brew cask install screenhero
 brew cask install seil
 brew cask install shiftit
 brew cask install slack
-brew cask install sonic-pi
 brew cask install spotify
 brew cask install spotifree
 brew cask install robomongo 
@@ -73,7 +66,6 @@ brew cask install the-unarchiver
 brew cask install toggldesktop
 brew cask install utorrent
 brew cask install vlc
-
 
 # cleanup unneeded files from the cellar.
 brew cleanup

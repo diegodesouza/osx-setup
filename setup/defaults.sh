@@ -1,6 +1,4 @@
 #!/bin/bash
-$DOTFILES_ROOT/cask.sh/defaults.sh
-
 # DESCRIPTION
 # Applies system and application defaults.
 

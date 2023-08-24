@@ -4,6 +4,12 @@ echo "Initiating Setup";
 
 source ~/osx-setup/setup/functions.sh
 
+echo "Installing xcode"
+xcode-select --install
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 if ! command -v brew >/dev/null; then
  fancy_echo "Installing Homebrew ..."
    curl -fsS \
@@ -24,6 +30,6 @@ else
    fancy_echo "Finished updating Homebrew 🍺\n"
 fi
 
-source ~/osx-setup/setup/applications.sh
+fancy_echo "Done with setup.sh"
 
-fancy_echo "Done"
+source ~/osx-setup/setup/applications.sh

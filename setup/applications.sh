@@ -15,7 +15,7 @@ git config --global push.default simple
 brew_install zsh
 brew_install python3
 brew_install nvm 
-source "$(brew --prefix nvm)/nvm.sh"
+# source "$(brew --prefix nvm)/nvm.sh"
 # source ~/.nvm/nvm.sh
 
 fancy_echo "Installing Node ..."

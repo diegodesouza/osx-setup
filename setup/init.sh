@@ -2,7 +2,7 @@ echo "Initiating...";
 
 source ~/osx-setup/setup/functions.sh
 
-fancy_echo "Initiating OSX ..."
+# fancy_echo "Initiating OSX ..."
 
 # source ~/osx-setup/setup/.osx
 

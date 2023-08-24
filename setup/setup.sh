@@ -19,6 +19,9 @@ if test ! $(which brew); then
    # shellcheck disable=SC2016
    append_to_zshrc 'export PATH="/usr/local/bin:$PATH"' 1
 
+   (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/diegodesouza/.zprofile
+   eval "$(/usr/local/bin/brew shellenv)"
+
    export PATH="/usr/local/bin:$PATH"
 else 
    fancy_echo "$(brew --version)"

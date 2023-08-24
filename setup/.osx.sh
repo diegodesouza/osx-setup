@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 # taken from 
-# ~/.osx -- http://mths.be/osx
+# ~/.osx.sh -- http://mths.be/osx
 
 # Ask for administrator password right away:
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until `.osx` has finished
+# Keep-alive: update existing `sudo` time stamp until `.osx.sh` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################

@@ -42,7 +42,7 @@ brew_install iterm2
 brew_install karabiner-elements
 brew_install onyx
 brew_install quicksilver
-brew_install shiftif
+brew_install rectangle
 brew_install simplenote
 brew_install slack
 brew_install webstorm

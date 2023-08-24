@@ -22,7 +22,7 @@ echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
 echo '[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh" #This loads nvm' >> ~/.zshrc
 echo '[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion' >> ~/.zshrc
 
-source ~/.zshrc
+echo "source ~/.zshrc > .zsh_profile"
 
 fancy_echo "Installing Node ..."
 nvm install node

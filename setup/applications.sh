@@ -32,17 +32,17 @@ nvm alias default node
 fancy_echo "Tapping Brew Cask ..."
 brew tap homebrew/cask
 
-brew_cask_install ack
-brew_cask_install alfred 
-brew_cask_install caffeine 
-brew_cask_install firefox
-brew_cask_install flux
-brew_cask_install google-chrome
-brew_cask_install iterm2
-brew_cask_install karabiner-elements 
-brew_cask_install onyx
-brew_cask_install quicksilver
-brew_cask_install shiftif 
-brew_cask_install simplenote 
-brew_cask_install slack 
-brew_cask_install webstorm 
+brew_install ack
+brew_install alfred
+brew_install caffeine
+brew_install firefox
+brew_install flux
+brew_install google-chrome
+brew_install iterm2
+brew_install karabiner-elements
+brew_install onyx
+brew_install quicksilver
+brew_install shiftif
+brew_install simplenote
+brew_install slack
+brew_install webstorm

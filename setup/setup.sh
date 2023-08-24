@@ -33,5 +33,3 @@ else
 fi
 
 fancy_echo "Done with setup.sh"
-
-source ~/osx-setup/setup/applications.sh

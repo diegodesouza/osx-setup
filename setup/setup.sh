@@ -10,10 +10,9 @@ xcode-select --install
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-if ! command -v brew >/dev/null; then
+if test ! $(which brew); then
  fancy_echo "Installing Homebrew ..."
-   curl -fsS \
-     'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
    append_to_zshrc '# recommended by brew doctor'
 

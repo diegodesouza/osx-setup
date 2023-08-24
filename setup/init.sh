@@ -4,7 +4,7 @@ source ~/osx-setup/setup/functions.sh
 
 fancy_echo "Initiating OSX ..."
 
-source ~/osx-setup/setup/.osx
+# source ~/osx-setup/setup/.osx
 
 fancy_echo "Initiating Defaults ..."
 

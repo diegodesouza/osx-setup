@@ -33,6 +33,7 @@ fancy_echo "Tapping Brew Cask ..."
 brew tap homebrew/cask
 
 brew_install ack
+brew_install fzf
 brew_install alfred
 brew_install caffeine
 brew_install firefox
